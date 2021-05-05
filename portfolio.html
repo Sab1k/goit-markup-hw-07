@@ -19,48 +19,54 @@
 
 <body>
     <!--Шапка сайта-->
-    <header class="header container">
-        <div class="container">
-            <nav class="main-nav">
-                <a href="./" class="logo"><span class="first-logo">Web</span><span class="second-logo">Studio</span> </a>
-                <ul class="site-nav">
-                <li class="item"><a href="./index.html" class="link site-nav-link">Студия</a></li>
-                <li class="item"><a href="./portfolio.html" class="link site-nav-link current">Портфолио</a></li>
-                <li class="item"><a href="" class="link site-nav-link">Контакты</a></li>
-                </ul>
-                </nav>
-                <ul class="contacts">
-                    <li class="item mail"> <a class="link" href="mailto:info@example.com">
-                            <svg class="mail-icon" width="16" height="12">
-                                <use href="./images/icons.svg/sprite.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com</a></li>
-                
-                    <li class="item tel"> <a class="link" href="tel:+380961111111">
-                            <svg class="tel-icon" width="10" height="16">
-                                <use href="./images/icons.svg/sprite.svg#icon-smartphone"></use>
-                            </svg>
-                            +38 096 111 11 11</a></li>
-                </ul>
-                </div>
-                </header>
+   
+<header class="header">
+    <div class="container header__container">
+        <nav class="main-nav">
+            <a href="./" class="logo header__logo"><span class="first-logo">Web</span><span
+                    class="second-logo">Studio</span> </a>
+            <ul class="site-nav">
+                <li class="site-nav__item"><a href="./index.html" class="link site-nav__link">Студия</a></li>
+                <li class="site-nav__item"><a href="./portfolio.html" class="link site-nav__link current">Портфолио</a></li>
+                <li class="site-nav__item"><a href="" class="link site-nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="contacts">
+            <li class="contacts__item mail"> <a class="link" href="mailto:info@example.com">
+                    <svg class="mail-icon" width="16" height="12">
+                        <use href="./images/icons.svg/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+
+            <li class="contacts__item tel"> <a class="link" href="tel:+380961111111">
+                    <svg class="tel-icon" width="10" height="16">
+                        <use href="./images/icons.svg/sprite.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a></li>
+        </ul>
+    </div>
+</header>
+
+
+
+
 
 
 <main> 
 <!-- Раздел фильтров-->
-<section class="section">
+<section class="section btn">
     <div class="container">
     <h1 class="section-title visually-hidden">Наши работы</h1>
-    <ul class="btn">
-        <li class="btn-list"> <button type="button" class="button"> Все </button></li>
-        <li class="btn-list"> <button type="button" class="button"> Веб-сайты </button></li>
-        <li class="btn-list"> <button type="button" class="button"> Приложения </button></li>
-        <li class="btn-list"> <button type="button" class="button"> Дизайн </button></li>
-        <li class="btn-list"> <button type="button" class="button"> Маркетинг </button></li>
+    <ul class="btn__list">
+        <li class="btn__item"> <button type="button" class="button"> Все </button></li>
+        <li class="btn__item"> <button type="button" class="button"> Веб-сайты </button></li>
+        <li class="btn__item"> <button type="button" class="button"> Приложения </button></li>
+        <li class="btn__item"> <button type="button" class="button"> Дизайн </button></li>
+        <li class="btn__item"> <button type="button" class="button"> Маркетинг </button></li>
     </ul>
 
     <ul class="feature-list">
-        <li class="cards">
+        <li class="feature-list__item">
             <div class="cards-thumb">
             <img src="./images/0.jpg" alt="Открытый ноутбук с изоброжением Веб-сайта" width="370" height="294">
             <div class="cards-overlay">
@@ -74,7 +80,7 @@
             </div>
         </li>
 
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/1.jpg" alt="Баскетболисти борятся за мяч" width="370" height="294">
             <div class="cards-overlay">
@@ -85,7 +91,7 @@
             <div class="cards-content"><h2 class="title">Постер New Orlean vs Golden Star</h2>
             <p class="section-filters">Дизайн</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/2.jpg" alt="Эмблема в виде рыбы с надписью " width="370" height="294">
             <div class="cards-overlay">
@@ -97,7 +103,7 @@
             <p class="section-filters">Приложение</p></div>
         </li>
 
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/3.jpg" alt="Наушники" width="370" height="294">
             <div class="cards-overlay">
@@ -108,7 +114,7 @@
             <div class="cards-content"><h2 class="title">Проект Prime</h2>
             <p class="section-filters">Маркетинг</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/4.jpg" alt="Две не больниших коробки" width="370" height="294">
             <div class="cards-overlay">
@@ -119,7 +125,7 @@
             <div class="cards-content"><h2 class="title">Проект Boxes</h2>
             <p class="section-filters">Приложение</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/5.jpg" alt="Манитор с изоброжением Веб-сайта" width="370" height="294">
             <div class="cards-overlay">
@@ -130,7 +136,7 @@
             <div class="cards-content"><h2 class="title">Inspiration has no Borders</h2>
             <p class="section-filters">Веб-сайт</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/6.jpg" alt="Развернута книга" width="370" height="294">
             <div class="cards-overlay">
@@ -141,7 +147,7 @@
             <div class="cards-content"><h2 class="title">Издание Limited Edition</h2>
             <p class="section-filters">Дизайн</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
         <div class="cards-thumb">
             <img src="./images/7.jpg" alt="Бирка с надписью" width="370" height="294">
             <div class="cards-overlay">
@@ -152,7 +158,7 @@
             <div class="cards-content"><h2 class="title">Проект LAB</h2>
             <p class="section-filters">Маркетинг</p></div>
         </li>
-        <li class="cards">
+        <li class="feature-list__item">
             <div class="cards-thumb">
             <img src="./images/8.jpg" alt="Руки человека набирают на клавиатуре ноутбука" width="370" height="294">
             <div class="cards-overlay">
@@ -171,7 +177,7 @@
 <!-- Футер -->
 <footer class="footer">
     <div class="footer-flex container">
-        <div class="footer-address">
+        <div class="footer-address block">
             <a href="./" class="logo-footer"><span class="first-logo">Web</span><span
                     class="footer-second-logo">Studio</span> </a>
             <address class="address">
@@ -182,32 +188,32 @@
                 </ul>
             </address>
         </div>
-        <div class="join-container">
+        <div class="join-container block">
             <b class="join">ПРИСОЕДИНЯЙТЕСЬ</b>
             <ul class="social-icons">
-                <li class="social-icons-items">
-                    <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                <li class="social-icons__items">
+                    <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                         <svg class="icons">
                             <use href="./images/icons.svg/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-icons-items">
-                    <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                <li class="social-icons__items">
+                    <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                         <svg class="icons">
                             <use href="./images/icons.svg/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-icons-items">
-                    <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                <li class="social-icons__items">
+                    <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                         <svg class="icons">
                             <use href="./images/icons.svg/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="social-icons-items">
-                    <a href="" class="social-icons-link" target="_blank" rel="noopener noreferrer">
+                <li class="social-icons__items">
+                    <a href="" class="social-icons__link" target="_blank" rel="noopener noreferrer">
                         <svg class="icons">
                             <use href="./images/icons.svg/sprite.svg#icon-linkedin"></use>
                         </svg>
@@ -215,17 +221,18 @@
                 </li>
             </ul>
         </div>
-<div class="email-container block">
-    <b class="join">Подпишитесь на рассылку</b>
-    <form class="form-footer">
-        <input class="footer-input" type="email" name="mail" placeholder="E-mail" id="mail" />
-        <button class="button primary" type="submit">Подписаться
-            <svg class="icons" width="24" height="24">
-                <use href="./images/icons.svg/sprite.svg#icon-send"></use>
-            </svg>
-        </button>
-    </form>
-</div>
+        <div class="email-container block">
+            <b class="join">Подпишитесь на рассылку</b>
+            <form class="form-footer">
+                <input class="footer-input" type="email" name="mail" placeholder="E-mail" id="mail" />
+                <button class="button primary" type="submit">Подписаться
+                    <svg class="icons" width="24" height="24">
+                        <use href="./images/icons.svg/sprite.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    
     </div>
 </footer>
 
